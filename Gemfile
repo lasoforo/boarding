@@ -7,13 +7,13 @@ gem 'activejob', '>= 4.2.11'
 
 gem 'rack', '>= 1.6.11'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 
 # Vulnerable versions: >= 5.0.0, <= 5.0.7.1 
 gem "actionview", ">= 5.0.7.2"
@@ -32,7 +32,7 @@ gem 'fastlane', '>= 2.126.0', '< 3.0.0'
 gem 'bootstrap-sass', '~> 3.4.1'
 
 # nokogiri 1.8.1 seems to be problematic
-gem 'nokogiri', '>= 1.8.1', '< 2.0.0'
+gem 'nokogiri', '>= 1.13.6', '< 2.0.0'
 
 gem 'http_accept_language', '~> 2.0.5'
 
@@ -53,5 +53,5 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
 end
