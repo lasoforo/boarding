@@ -5,15 +5,15 @@ source 'https://rubygems.org'
 # Updated for CVE-2018-16476: https://nvd.nist.gov/vuln/detail/CVE-2018-16476.
 gem 'activejob', '>= 4.2.11'
 
-gem 'rack', '>= 1.6.11'
+gem 'rack', '>= 2.0.9.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.0'
+gem 'coffee-rails', '~> 4.1.1'
 
 # Vulnerable versions: >= 5.0.0, <= 5.0.7.1 
 gem "actionview", ">= 5.0.7.2"
@@ -53,5 +53,5 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '~> 2.3', '>= 2.3.0'
 end
