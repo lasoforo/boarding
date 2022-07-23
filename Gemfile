@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # ruby '2.3.3'
 
 # Updated for CVE-2018-16476: https://nvd.nist.gov/vuln/detail/CVE-2018-16476.
-gem 'activejob', '>= 4.2.11'
+gem 'activejob', '>= 5.0.7.2'
 
 gem 'rack', '>= 2.0.9.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
