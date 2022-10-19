@@ -21,7 +21,7 @@ gem "actionview", ">= 5.0.7.2"
 # Specify a sub-dependency of Rails
 # As there is a security vulnerability
 # in old versions of the library
-gem "loofah", ">= 2.2.3"
+gem "loofah", ">= 2.18.0"
 
 # Use jquery as the JavaScript library
 
@@ -32,7 +32,7 @@ gem 'fastlane', '>= 2.126.0', '< 3.0.0'
 gem 'bootstrap-sass', '~> 3.4.1'
 
 # nokogiri 1.8.1 seems to be problematic
-gem 'nokogiri', '>= 1.8.1', '< 2.0.0'
+gem 'nokogiri', '>= 1.13.9', '< 2.0.0'
 
 gem 'http_accept_language', '~> 2.0.5'
 
