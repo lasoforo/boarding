@@ -21,7 +21,7 @@ gem "actionview", ">= 5.0.7.2"
 # Specify a sub-dependency of Rails
 # As there is a security vulnerability
 # in old versions of the library
-gem "loofah", ">= 2.2.3"
+gem "loofah", ">= 2.19.1"
 
 # Use jquery as the JavaScript library
 
