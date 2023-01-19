@@ -3,20 +3,20 @@ source 'https://rubygems.org'
 # ruby '2.3.3'
 
 # Updated for CVE-2018-16476: https://nvd.nist.gov/vuln/detail/CVE-2018-16476.
-gem 'activejob', '>= 4.2.11'
+gem 'activejob', '>= 6.1.7.1'
 
-gem 'rack', '>= 2.0.9.1'
+gem 'rack', '>= 2.2.6.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.1'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0', '>= 5.0.7'
+gem 'sass-rails', '~> 5.0', '>= 5.0.8'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.1.1'
+gem 'coffee-rails', '~> 4.2.2'
 
 # Vulnerable versions: >= 5.0.0, <= 5.0.7.1 
-gem "actionview", ">= 5.0.7.2"
+gem "actionview", ">= 6.1.7.1"
 
 # Specify a sub-dependency of Rails
 # As there is a security vulnerability
