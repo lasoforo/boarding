@@ -39,7 +39,7 @@ gem 'http_accept_language', '~> 2.0.5'
 gem 'dotenv'
 
 group :production do
-  gem 'puma'
+  gem 'puma', '>= 5.6.9'
   gem 'rails_12factor'
 end
 
